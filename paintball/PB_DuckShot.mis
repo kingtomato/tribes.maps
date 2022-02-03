@@ -1,0 +1,3338 @@
+//--- export object begin ---//
+instant SimGroup "MissionGroup" {
+	instant SimGroup "Volumes" {
+		instant SimVolume "InterfaceVol" {
+			fileName = "Interface.vol";
+		};
+		instant SimVolume "entities" {
+			fileName = "Entities.vol";
+		};
+		instant SimVolume "TedFile" {
+			fileName = "Broadside.ted";
+		};
+		instant SimVolume "human1DML" {
+			fileName = "human1DML.vol";
+		};
+		instant SimVolume "lushWorld" {
+			fileName = "lushWorld.vol";
+		};
+		instant SimVolume "lushTerrain" {
+			fileName = "lushTerrain.vol";
+		};
+		instant SimVolume "lushDML" {
+			fileName = "lushDML.vol";
+		};
+		instant SimVolume "savanaDML" {
+			fileName = "savanaDML.vol";
+		};
+		instant SimVolume "MissionLighting" {
+			fileName = "Broadside.vol";
+		};
+	};
+	instant SimGroup "World" {
+		instant SimPalette "Palette" {
+			fileName = "lush.day.ppl";
+		};
+	};
+	instant SimGroup "Landscape" {
+		instant Sky "Sky" {
+			dmlName = "litesky.dml";
+			skyColor = "0 0 0";
+			hazeColor = "3.39556e+38 3.39556e+38 3.39556e+38";
+			featurePosition = "0";
+			size = "600";
+			textures[0] = "0";
+			textures[1] = "1";
+			textures[2] = "2";
+			textures[3] = "3";
+			textures[4] = "4";
+			textures[5] = "5";
+			textures[6] = "6";
+			textures[7] = "7";
+			textures[8] = "8";
+			textures[9] = "9";
+			textures[10] = "10";
+			textures[11] = "11";
+			textures[12] = "12";
+			textures[13] = "13";
+			textures[14] = "14";
+			textures[15] = "15";
+			distance = "800";
+		};
+		instant SimTerrain "Terrain" {
+			tedFileName = "Broadside.dtf";
+			visibleDistance = "600";
+			hazeDistance = "400";
+			hazeVerticalMin = "1.16382e-08";
+			hazeVerticalMax = "1.74134e-39";
+			perspectiveDistance = "100";
+			screenSize = "50";
+			contGravity = "0 0 -20";
+			contDrag = "0";
+			contHeight = "10000";
+			position = "-3072 -3072 0";
+			rotation = "0 0 0";
+		};
+		instant MissionCenterPos "MissionCenter" {
+			x = "-827";
+			y = "-717";
+			w = "1000";
+			h = "1000";
+		};
+	};
+	instant SimGroup "Lights" {
+		instant Planet "sunLight" {
+			fileName = "lushdaysun.bmp";
+			azimuth = "178.65";
+			incidence = "49";
+			castShadows = "True";
+			useLensFlare = "True";
+			intensity = "0.699953 0.699953 0.699953";
+			ambient = "0.299957 0.299957 0.299957";
+			size = "180";
+			distance = "1200";
+		};
+	};
+	instant SimGroup "Teams" {
+		instant TeamGroup "team0" {
+			instant DropPointGroup "DropPoints" {
+				instant SimGroup "start" {
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.158 -269.75 216.625";
+						rotation = "0 -0 1.29372e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.158 -269.75 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.152 -269.769 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.152 -269.769 216.625";
+						rotation = "0 -0 2.29508e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.132 -255.758 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.138 -255.734 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.138 -255.734 216.625";
+						rotation = "0 -0 2.29508e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.132 -255.758 216.625";
+						rotation = "0 -0 3.29644e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.089 -262.723 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.089 -262.723 216.625";
+						rotation = "0 -0 4.2978e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.095 -262.699 216.625";
+						rotation = "0 -0 3.29644e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.095 -262.699 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+				};
+				instant SimGroup "Random" {
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.158 -269.75 216.625";
+						rotation = "0 -0 2.29508e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.095 -262.699 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.095 -262.699 216.625";
+						rotation = "0 -0 4.2978e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.089 -262.723 216.625";
+						rotation = "0 -0 5.29915e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.089 -262.723 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.132 -255.758 216.625";
+						rotation = "0 -0 4.2978e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.138 -255.734 216.625";
+						rotation = "0 -0 3.29644e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.138 -255.734 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.132 -255.758 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.152 -269.769 216.625";
+						rotation = "0 -0 3.29644e-05";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-545.152 -269.769 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.158 -269.75 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-555.98 -273.015 206.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-547.849 -262.799 206.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-549.684 -260.613 206.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-552.358 -261.682 206.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-536.989 -254.222 216.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-540.471 -254.724 216.625";
+						rotation = "0 -0 -3.1415";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-537.696 -271.713 216.625";
+						rotation = "0 -0 1.57071";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-536.151 -269.582 216.625";
+						rotation = "0 -0 1.57071";
+					};
+				};
+			};
+			instant InteriorShape "logo11" {
+				fileName = "logo1.dis";
+				isContainer = "1";
+				position = "-506.202 -263.342 204.508";
+				rotation = "0 -0 1.57071";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.926 -254.599 173.54";
+				rotation = "0 -0 1.57071";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-506.203 -273.344 205.738";
+				rotation = "0 -0 1.57072";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-565.451 -267.226 213.88";
+				rotation = "0 -0 -0.523593";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-565.468 -259.762 213.88";
+				rotation = "0 -0 -2.6179";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "bunker21" {
+				fileName = "bunker2.dis";
+				isContainer = "1";
+				position = "-545.15 -263.739 211.625";
+				rotation = "0 -0 -1.57072";
+				lightParams = "0 ";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-570.218 -247.435 205.75";
+				rotation = "1.01751e-05 1.57067 3.86223e-05";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageTeam = "0";
+				lastDamageObject = "2050";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-570.125 -279.477 205.75";
+				rotation = "1.01752e-05 1.57067 2.2887e-05";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageObject = "2049";
+				lastDamageTeam = "0";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-567.071 -260.855 208.07";
+				rotation = "1.01742e-05 1.57061 0.523643";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageObject = "2049";
+				lastDamageTeam = "0";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-567.069 -266.125 208.071";
+				rotation = "1.01747e-05 1.57062 -0.523613";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageTeam = "0";
+				lastDamageObject = "2049";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-492.366 -287.506 197.67";
+				rotation = "0 -0 1.57075";
+				lightParams = "0 ";
+			};
+			instant Item "flag1" {
+				dataBlock = "flag";
+				name = "";
+				position = "-514.25 -263.45 205.849";
+				rotation = "0 -0 -3.1415";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				rotates = "False";
+				collideable = "False";
+				count = "1";
+				objectiveLine = "13";
+				scoreValue = "1";
+				originalPosition = "-514.25 -263.45 205.848";
+				atHome = "true";
+				pickupSequence = "0";
+				carrier = "-1";
+				holdingTeam = "-1";
+				changeTeamCount = "0";
+				enemyCaps = "0";
+				caps0 = "0";
+				caps1 = "0";
+				caps2 = "0";
+				caps3 = "0";
+				caps4 = "0";
+				caps5 = "0";
+				caps6 = "0";
+				caps7 = "0";
+			};
+			instant StaticShape "InventoryStation1" {
+				dataBlock = "InventoryStation";
+				name = "Map By Kevin";
+				position = "-558.762 -255.891 206.625";
+				rotation = "0 -0 0.785404";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastPlayer = "8704";
+				lastDamageObject = "2049";
+				lastDamageTeam = "0";
+			};
+			instant StaticShape "InventoryStation1" {
+				dataBlock = "InventoryStation";
+				name = "Map By Kevin";
+				position = "-543.653 -255.75 206.625";
+				rotation = "0 -0 -0.785383";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+			};
+			instant StaticShape "Generator1" {
+				dataBlock = "Generator";
+				name = "";
+				position = "-538.965 -257.73 206.625";
+				rotation = "0 -0 1.57071";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-506.204 -253.345 205.737";
+				rotation = "0 -0 1.57072";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.912 -272.466 173.54";
+				rotation = "0 -0 1.57072";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.914 -286.548 173.54";
+				rotation = "0 -0 1.57072";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.9 -304.415 173.54";
+				rotation = "0 -0 1.57075";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.981 -222.5 173.54";
+				rotation = "0 -0 1.57075";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-450.967 -240.362 173.54";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-520.206 -235.508 205.738";
+				rotation = "0 -0 1.57075";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-520.171 -291.402 205.738";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-536.154 -307.484 205.738";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-536.229 -219.473 205.738";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-471.588 -263.434 185.532";
+				rotation = "0 -0 1.57075";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-471.579 -311.576 185.532";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-471.558 -215.471 185.532";
+				rotation = "0 -0 1.57076";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-492.327 -239.645 197.67";
+				rotation = "0 -0 1.57081";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-506.228 -203.473 205.687";
+				rotation = "0 0 1.57079";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-506.236 -323.484 205.687";
+				rotation = "0 0 1.57079";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-562.04 -239.586 205.737";
+				rotation = "0 -0 -3.14138";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-561.905 -287.478 205.737";
+				rotation = "0 -0 0.000182385";
+				lightParams = "0 ";
+			};
+		};
+		instant TeamGroup "team1" {
+			instant DropPointGroup "DropPoints" {
+				instant SimGroup "start" {
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.965 -257.228 216.625";
+						rotation = "0 -0 -3.14149";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.965 -257.228 216.625";
+						rotation = "0 -0 3.07663e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-314.972 -257.204 216.625";
+						rotation = "0 -0 3.07662e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-314.972 -257.204 216.625";
+						rotation = "0 -0 -3.14148";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315 -271.215 216.625";
+						rotation = "0 -0 3.07661e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.985 -271.239 216.625";
+						rotation = "0 -0 3.07662e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.985 -271.239 216.625";
+						rotation = "0 -0 -3.14148";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315 -271.215 216.625";
+						rotation = "0 -0 -3.14147";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315.034 -264.25 216.625";
+						rotation = "0 -0 3.0766e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315.034 -264.25 216.625";
+						rotation = "0 -0 -3.14146";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-311.028 -264.273 216.625";
+						rotation = "0 -0 -3.14147";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-311.028 -264.273 216.625";
+						rotation = "0 -0 3.07661e-06";
+					};
+				};
+				instant SimGroup "Random" {
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.965 -257.228 216.625";
+						rotation = "0 -0 -3.14148";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-311.028 -264.273 216.625";
+						rotation = "0 -0 3.0766e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-311.028 -264.273 216.625";
+						rotation = "0 -0 -3.14146";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315.034 -264.25 216.625";
+						rotation = "0 -0 -3.14145";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315.034 -264.25 216.625";
+						rotation = "0 -0 3.07659e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315 -271.215 216.625";
+						rotation = "0 -0 -3.14146";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.985 -271.239 216.625";
+						rotation = "0 -0 -3.14147";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.985 -271.239 216.625";
+						rotation = "0 -0 3.07661e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-315 -271.215 216.625";
+						rotation = "0 -0 3.0766e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-314.972 -257.204 216.625";
+						rotation = "0 -0 -3.14147";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-314.972 -257.204 216.625";
+						rotation = "0 -0 3.07661e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.965 -257.228 216.625";
+						rotation = "0 -0 3.07662e-06";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-304.143 -253.957 206.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-312.274 -264.173 206.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-310.439 -266.36 206.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-307.765 -265.291 206.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-323.134 -272.751 216.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-319.652 -272.25 216.625";
+						rotation = "0 0 0";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-322.428 -255.259 216.625";
+						rotation = "0 -0 -1.5707";
+					};
+					instant Marker "Drop Point1" {
+						dataBlock = "DropPointMarker";
+						name = "";
+						position = "-323.973 -257.391 216.625";
+						rotation = "0 -0 -1.5707";
+					};
+				};
+			};
+			instant InteriorShape "logo11" {
+				fileName = "logo1.dis";
+				isContainer = "1";
+				position = "-353.922 -263.63 204.508";
+				rotation = "0 -0 -1.5707";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.198 -272.375 173.539";
+				rotation = "0 -0 -1.5707";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-353.92 -253.629 205.737";
+				rotation = "0 -0 -1.57069";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-294.672 -259.75 213.88";
+				rotation = "0 -0 2.6179";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-294.656 -267.21 213.879";
+				rotation = "0 -0 0.523589";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "bunker21" {
+				fileName = "bunker2.dis";
+				isContainer = "1";
+				position = "-314.973 -263.234 211.625";
+				rotation = "0 -0 1.57069";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-388.565 -311.501 185.532";
+				rotation = "0 -0 -1.57066";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-367.797 -287.327 197.67";
+				rotation = "0 -0 -1.57061";
+				lightParams = "0 ";
+			};
+			instant Item "flag1" {
+				dataBlock = "flag";
+				name = "";
+				position = "-345.879 -263.52 205.842";
+				rotation = "0 -0 -0";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				rotates = "False";
+				collideable = "False";
+				count = "1";
+				objectiveLine = "14";
+				scoreValue = "1";
+				originalPosition = "-345.879 -263.52 205.841";
+				atHome = "true";
+				pickupSequence = "0";
+				carrier = "-1";
+				holdingTeam = "-1";
+				changeTeamCount = "0";
+				enemyCaps = "0";
+				caps0 = "0";
+				caps1 = "0";
+				caps2 = "0";
+				caps3 = "0";
+				caps4 = "0";
+				caps5 = "0";
+				caps6 = "0";
+				caps7 = "0";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-367.758 -239.466 197.67";
+				rotation = "0 -0 -1.57067";
+				lightParams = "0 ";
+			};
+			instant StaticShape "Stand1" {
+				dataBlock = "FlagStand";
+				name = "";
+				position = "-293.009 -263.485 221.9";
+				rotation = "0 0 0";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-388.545 -215.397 185.532";
+				rotation = "0 -0 -1.57066";
+				lightParams = "0 ";
+			};
+			instant StaticShape "InventoryStation1" {
+				dataBlock = "InventoryStation";
+				name = "Map By Kevin";
+				position = "-301.425 -271.071 206.625";
+				rotation = "0 -0 -2.35609";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageTeam = "1";
+				lastDamageObject = "2051";
+				lastPlayer = "8695";
+			};
+			instant StaticShape "InventoryStation1" {
+				dataBlock = "InventoryStation";
+				name = "Map By Kevin";
+				position = "-316.47 -271.229 206.625";
+				rotation = "0 -0 2.35611";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastPlayer = "8705";
+			};
+			instant StaticShape "Generator1" {
+				dataBlock = "Generator";
+				name = "";
+				position = "-321.158 -269.25 206.625";
+				rotation = "0 -0 -1.5707";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-353.919 -273.627 205.736";
+				rotation = "0 -0 -1.57069";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.212 -254.506 173.539";
+				rotation = "0 -0 -1.57069";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.209 -240.424 173.539";
+				rotation = "0 -0 -1.57069";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.224 -222.557 173.539";
+				rotation = "0 -0 -1.57067";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.142 -304.478 173.539";
+				rotation = "0 -0 -1.57067";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-409.156 -286.611 173.539";
+				rotation = "0 -0 -1.57066";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-339.917 -291.464 205.737";
+				rotation = "0 -0 -1.57067";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-339.953 -235.571 205.737";
+				rotation = "0 -0 -1.57066";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-323.97 -219.488 205.737";
+				rotation = "0 -0 -1.57066";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-323.894 -307.5 205.737";
+				rotation = "0 -0 -1.57065";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-388.536 -263.538 185.532";
+				rotation = "0 -0 -1.57067";
+				lightParams = "0 ";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-289.849 -247.412 205.75";
+				rotation = "1.01749e-05 1.57064 -3.14149";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageTeam = "0";
+				lastDamageObject = "2051";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-289.754 -279.454 205.75";
+				rotation = "1.01748e-05 1.57064 -3.14149";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageObject = "2050";
+				lastDamageTeam = "0";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-292.904 -266.053 208.07";
+				rotation = "1.01739e-05 1.57057 -2.6179";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageTeam = "0";
+				lastDamageObject = "2049";
+			};
+			instant StaticShape "ForceField1" {
+				dataBlock = "ForceField";
+				name = "";
+				position = "-292.859 -260.931 208.071";
+				rotation = "1.01744e-05 1.57058 2.61793";
+				destroyable = "True";
+				deleteOnDestroy = "False";
+				lastDamageObject = "2049";
+				lastDamageTeam = "0";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-353.899 -203.514 205.688";
+				rotation = "0 0 -1.57079";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-353.909 -323.528 205.687";
+				rotation = "0 0 -1.57079";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-297.918 -239.552 205.737";
+				rotation = "0 -0 -3.14141";
+				lightParams = "0 ";
+			};
+			instant InteriorShape "logo21" {
+				fileName = "logo2.dis";
+				isContainer = "1";
+				position = "-297.784 -287.444 205.737";
+				rotation = "0 -0 0.000182387";
+				lightParams = "0 ";
+			};
+		};
+		instant StaticShape "PortGen1" {
+			dataBlock = "PortGenerator";
+			name = "";
+			position = "-375.571 -240.674 122.585";
+			rotation = "0 0 0";
+			destroyable = "False";
+			deleteOnDestroy = "False";
+		};
+	};
+	instant SimGroup "ObserverDropPoints" {
+		instant Marker "Drop Point1" {
+			dataBlock = "DropPointMarker";
+			name = "";
+			position = "-383.858 -319.837 237.413";
+			rotation = "-0.392166 -0 -0.943469";
+		};
+		instant Marker "Drop Point1" {
+			dataBlock = "DropPointMarker";
+			name = "";
+			position = "-482.81 -207.092 237.413";
+			rotation = "-0.392165 -0 2.19809";
+		};
+	};
+	instant SimGroup "Arena" {
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-321.905 -231.5 201.74";
+			rotation = "0 0 0";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "catwalkA1" {
+			fileName = "catwalkA.dis";
+			isContainer = "1";
+			position = "-429.81 -231.5 156.069";
+			rotation = "0 -0 -1.57069";
+			lightParams = "4 1.400000 1 1.400000 1 8.399998 1 8.399998 1 ";
+		};
+		instant InteriorShape "catwalkA1" {
+			fileName = "catwalkA.dis";
+			isContainer = "1";
+			position = "-429.81 -295.506 156.069";
+			rotation = "0 -0 -1.57069";
+			lightParams = "4 1.400000 1 1.400000 1 8.399998 1 8.399998 1 ";
+		};
+		instant InteriorShape "catwalkA1" {
+			fileName = "catwalkA.dis";
+			isContainer = "1";
+			position = "-429.852 -263.477 156.07";
+			rotation = "0 -0 -1.57067";
+			lightParams = "4 1.400000 1 1.400000 1 8.399998 1 8.399998 1 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-538.23 -295.505 201.739";
+			rotation = "0 -0 -3.14149";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-480.515 -295.505 186.262";
+			rotation = "0 -0.523588 -3.14149";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-480.517 -231.5 186.262";
+			rotation = "0 -0.523588 -3.14149";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-538.231 -231.5 201.738";
+			rotation = "0 -0 -3.14149";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-379.625 -231.5 186.263";
+			rotation = "0 -0.523588 0";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-379.625 -295.507 186.263";
+			rotation = "0 -0.523588 0";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "iblock1" {
+			fileName = "iblock.dis";
+			isContainer = "1";
+			position = "-321.903 -295.508 201.739";
+			rotation = "0 0 0";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "logo21" {
+			fileName = "logo2.dis";
+			isContainer = "1";
+			position = "-292.863 -324.663 205.677";
+			rotation = "0 -0 -2.35611";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.273 -208.986 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.273 -220.983 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.27 -232.979 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.27 -244.976 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2051";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.269 -256.972 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.269 -268.969 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2050";
+			lastDamageTeam = "0";
+		};
+		instant InteriorShape "logo11" {
+			fileName = "logo1.dis";
+			isContainer = "1";
+			position = "-503.354 -327.233 197.676";
+			rotation = "0 -0 -3.14151";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.264 -280.962 205.75";
+			rotation = "0 -0 -1.5707";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "8373";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.268 -304.955 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.268 -316.952 205.75";
+			rotation = "0 -0 -1.57071";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant InteriorShape "logo21" {
+			fileName = "logo2.dis";
+			isContainer = "1";
+			position = "-292.849 -202.399 205.677";
+			rotation = "0 -0 -0.785385";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-347.924 -327.358 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant InteriorShape "logo11" {
+			fileName = "logo1.dis";
+			isContainer = "1";
+			position = "-356.781 -199.771 197.676";
+			rotation = "0 0 0";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "logo11" {
+			fileName = "logo1.dis";
+			isContainer = "1";
+			position = "-356.793 -329.191 197.676";
+			rotation = "0 0 0";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-372.968 -327.379 194.715";
+			rotation = "7.60633e-06 0.523588 -3.14147";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-383.358 -327.379 188.717";
+			rotation = "7.60633e-06 0.523588 -3.14147";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-393.75 -327.38 182.718";
+			rotation = "7.60633e-06 0.523588 -3.14147";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-404.136 -327.38 176.721";
+			rotation = "7.60633e-06 0.523588 -3.14147";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-362.582 -327.379 200.712";
+			rotation = "7.60633e-06 0.523588 -3.14147";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2050";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-372.982 -199.604 194.715";
+			rotation = "7.60666e-06 0.523589 -3.14148";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-383.375 -199.604 188.717";
+			rotation = "7.60666e-06 0.523589 -3.14148";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-393.76 -199.605 182.718";
+			rotation = "7.60666e-06 0.523589 -3.14148";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-404.151 -199.605 176.721";
+			rotation = "7.60666e-06 0.523589 -3.14148";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-362.596 -199.604 200.712";
+			rotation = "7.60666e-06 0.523589 -3.14148";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-335.924 -199.625 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-323.928 -199.625 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-311.931 -199.625 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-299.938 -199.625 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-347.921 -199.625 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-335.927 -327.358 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-323.931 -327.357 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-311.934 -327.357 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-299.941 -327.357 205.75";
+			rotation = "0 -0 -3.14149";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-512.211 -199.647 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2050";
+		};
+		instant InteriorShape "logo21" {
+			fileName = "logo2.dis";
+			isContainer = "1";
+			position = "-567.272 -202.342 205.677";
+			rotation = "0 -0 0.785394";
+			lightParams = "0 ";
+		};
+		instant InteriorShape "logo21" {
+			fileName = "logo2.dis";
+			isContainer = "1";
+			position = "-567.286 -324.605 205.677";
+			rotation = "0 -0 2.35612";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.875 -210.053 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.875 -222.05 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.866 -234.046 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.866 -246.043 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.866 -258.036 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.866 -270.032 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2050";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.865 -282.028 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.865 -294.025 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "1";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.862 -306.021 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2050";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-569.862 -318.018 205.75";
+			rotation = "0 -0 1.57072";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-560.194 -199.648 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-548.201 -199.648 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-536.204 -199.648 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-524.208 -199.647 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-512.214 -327.384 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-560.197 -327.385 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-548.204 -327.385 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-536.207 -327.385 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-524.211 -327.384 205.75";
+			rotation = "0 -0 2.28868e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-497.539 -327.399 200.712";
+			rotation = "7.60649e-06 0.523588 4.14829e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageObject = "2049";
+			lastDamageTeam = "0";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-455.985 -327.399 176.721";
+			rotation = "7.60649e-06 0.523588 4.14829e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-466.375 -327.399 182.718";
+			rotation = "7.60649e-06 0.523588 4.14829e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-476.763 -327.399 188.717";
+			rotation = "7.60649e-06 0.523588 4.14829e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-487.153 -327.399 194.715";
+			rotation = "7.60649e-06 0.523588 4.14829e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-497.553 -199.626 200.712";
+			rotation = "7.60616e-06 0.523587 5.14965e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-456 -199.625 176.721";
+			rotation = "7.60616e-06 0.523587 5.14965e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2050";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-466.389 -199.625 182.718";
+			rotation = "7.60616e-06 0.523587 5.14965e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-476.777 -199.626 188.717";
+			rotation = "7.60616e-06 0.523587 5.14965e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-487.167 -199.626 194.715";
+			rotation = "7.60616e-06 0.523587 5.14965e-05";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+		};
+		instant InteriorShape "logo11" {
+			fileName = "logo1.dis";
+			isContainer = "1";
+			position = "-503.342 -197.813 197.676";
+			rotation = "0 -0 -3.14151";
+			lightParams = "0 ";
+		};
+		instant StaticShape "ForceField1" {
+			dataBlock = "ForceField";
+			name = "";
+			position = "-290.269 -292.959 205.75";
+			rotation = "0 -0 -1.5707";
+			destroyable = "True";
+			deleteOnDestroy = "False";
+			lastDamageTeam = "0";
+			lastDamageObject = "2049";
+		};
+	};
+	instant SimGroup "kill" {
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.043 -324.518 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.02 -330.48 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.054 -318.572 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.078 -312.61 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.103 -294.739 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.092 -300.686 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.069 -306.647 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.127 -288.777 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.202 -247.245 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.177 -265.116 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.153 -271.078 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.142 -277.025 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.118 -282.987 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.226 -241.284 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.167 -259.154 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.191 -253.192 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.297 -199.845 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.286 -205.792 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.262 -211.754 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.321 -193.883 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.213 -235.586 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.237 -229.625 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.25 -223.678 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-412.272 -217.716 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.047 -324.297 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.276 -217.494 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.252 -223.456 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.241 -229.403 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.217 -235.365 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.324 -193.662 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.266 -211.532 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.29 -205.57 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.301 -199.625 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.195 -252.971 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.171 -258.932 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.229 -241.062 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.122 -282.765 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.146 -276.803 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.157 -270.856 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.18 -264.895 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.205 -247.024 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.131 -288.555 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.072 -306.426 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.096 -300.464 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.107 -294.517 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.082 -312.388 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.058 -318.35 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-418.023 -330.259 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-429.97 -324.098 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.194 -217.518 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.171 -223.479 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.16 -229.426 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.136 -235.388 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.243 -193.685 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.185 -211.555 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.209 -205.594 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.219 -199.647 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.113 -252.994 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.09 -258.956 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.148 -241.085 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.041 -282.789 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.065 -276.827 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.075 -270.88 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.099 -264.918 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.125 -247.047 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.049 -288.579 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-423.991 -306.449 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.015 -300.487 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.026 -294.54 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-424.001 -312.411 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-423.977 -318.375 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-423.942 -330.282 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-423.966 -324.32 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-429.946 -330.06 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-429.98 -318.151 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.004 -312.19 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.029 -294.319 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.018 -300.265 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-429.995 -306.227 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.053 -288.357 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.128 -246.825 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.103 -264.696 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.079 -270.658 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.068 -276.605 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.044 -282.567 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.152 -240.864 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.093 -258.734 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.117 -252.772 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.223 -199.425 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.212 -205.372 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.188 -211.334 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.247 -193.463 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.14 -235.166 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.163 -229.204 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.174 -223.258 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-430.198 -217.296 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.886 -324.667 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.114 -217.865 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.091 -223.827 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.08 -229.774 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.056 -235.735 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.163 -194.032 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.105 -211.903 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.129 -205.941 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.139 -199.994 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.033 -253.341 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.01 -259.303 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.068 -241.433 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.961 -283.136 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.985 -277.174 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.995 -271.227 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.019 -265.265 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-442.044 -247.395 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.969 -288.926 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.911 -306.796 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.935 -300.835 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.946 -294.888 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.921 -312.759 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.897 -318.72 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-441.862 -330.629 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.882 -324.889 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.858 -330.851 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.893 -318.942 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.917 -312.981 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.942 -295.109 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.931 -301.056 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.907 -307.018 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.966 -289.148 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.041 -247.616 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.016 -265.487 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.992 -271.449 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.981 -277.396 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-435.957 -283.358 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.064 -241.655 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.006 -259.525 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.03 -253.563 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.136 -200.216 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.125 -206.163 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.101 -212.125 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.16 -194.254 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.052 -235.957 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.076 -229.995 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.087 -224.049 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-436.111 -218.087 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.141 -217.91 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.912 -324.712 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.889 -330.674 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.923 -318.765 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.972 -294.932 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.947 -312.803 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.961 -300.879 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.937 -306.841 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.996 -288.97 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.071 -247.439 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.046 -265.31 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.022 -271.272 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.011 -277.219 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-447.987 -283.18 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.094 -241.478 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.036 -259.348 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.06 -253.386 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.166 -200.039 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.131 -211.947 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.155 -205.986 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.19 -194.077 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.082 -235.78 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.106 -229.818 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+		instant Trigger "GroupTrigger1" {
+			dataBlock = "GroupTrigger";
+			name = "";
+			position = "-448.117 -223.872 170.158";
+			rotation = "0 0 0";
+			boundingBox = "-3 -3 -3 3 3 3";
+			isSphere = "True";
+			num = "Kill";
+		};
+	};
+	instant StaticShape "LightSpringPad1" {
+		dataBlock = "LightSpringPad";
+		name = "";
+		position = "-295.804 -264.75 222.814";
+		rotation = "0 -3.14159 -0";
+		destroyable = "True";
+		deleteOnDestroy = "False";
+		lastDamageTeam = "-1";
+		lastDamageObject = "0";
+	};
+	instant StaticShape "LightSpringPad1" {
+		dataBlock = "LightSpringPad";
+		name = "";
+		position = "-295.805 -262.223 222.814";
+		rotation = "0 -3.14159 -0";
+		destroyable = "True";
+		deleteOnDestroy = "False";
+		lastDamageTeam = "1";
+		lastDamageObject = "2051";
+	};
+	instant StaticShape "LightSpringPad1" {
+		dataBlock = "LightSpringPad";
+		name = "";
+		position = "-564.255 -264.754 222.82";
+		rotation = "0 -3.14158 -3.14159";
+		destroyable = "True";
+		deleteOnDestroy = "False";
+		lastDamageTeam = "0";
+		lastDamageObject = "2051";
+	};
+	instant StaticShape "Stand1" {
+		dataBlock = "FlagStand";
+		name = "";
+		position = "-567.05 -263.493 221.906";
+		rotation = "0 -0 -3.14159";
+		destroyable = "True";
+		deleteOnDestroy = "False";
+	};
+	instant StaticShape "LightSpringPad1" {
+		dataBlock = "LightSpringPad";
+		name = "";
+		position = "-564.255 -262.227 222.82";
+		rotation = "0 -3.14158 -3.14159";
+		destroyable = "True";
+		deleteOnDestroy = "False";
+		lastDamageTeam = "0";
+		lastDamageObject = "2051";
+	};
+};
+//--- export object end ---//
+$teamScoreLimit = 5;
+exec(objectives);
+$Game::missionType = "CTF";
+$cdTrack = 3;
+$cdPlayMode = 1;
+
+function GroupTrigger::onEnter(%this, %object)
+{
+
+// not all of these may be used in this program. Its just my little toolkit I paste in.
+// this gets the player's team
+	%playerTeam = GameBase::getTeam(%object);
+	%triggerTeam = GameBase::getTeam(%this);
+// this gets the client's id number
+	%client = Player::getClient(%object);
+// this gets the client's armor	
+	%playerArmor = Player::getArmor(%object);
+// this gets the client's name
+	%playerName = Client::getName(%client);
+// this value adjusts the boost of the z axis for the Decelerator
+	%zVecSTOP = -10;
+// this gets the player's energy level;
+	%healthLevel = GameBase::getDamageLevel(%object);
+// this gets the player's energy level;
+	%energyLevel = GameBase::getEnergy(%object);
+
+//Text Colors
+//0 = white
+//1 = red
+//2 = gold
+//3 = green
+
+
+%client = Player::getClient(%object);
+	if(%this.num == "Kill"){
+	 messageAll(1,"---" @ %playerName @ " fell off the ledge.---~wplayer_death.wav");		
+	 Player::kill(%client);
+	 Player::blowUp(%object);
+	 Client::onKilled(%client, %client, 0);
+ 	}
+   }
